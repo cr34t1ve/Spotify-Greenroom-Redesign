@@ -88,19 +88,19 @@ class Home extends StatelessWidget {
                 ),
                 IconButton(
                   icon: Icon(CupertinoIcons.search),
-                  color: Colors.white,
+                  color: Colors.white.withOpacity(0.5),
                   iconSize: 30,
                   onPressed: () {},
                 ),
                 IconButton(
                   icon: Icon(CupertinoIcons.bell),
-                  color: Colors.white,
+                  color: Colors.white.withOpacity(0.5),
                   iconSize: 30,
                   onPressed: () {},
                 ),
                 IconButton(
                   icon: Icon(CupertinoIcons.person),
-                  color: Colors.white,
+                  color: Colors.white.withOpacity(0.5),
                   iconSize: 30,
                   onPressed: () {},
                 ),
