@@ -42,7 +42,7 @@ class ColSquircle extends StatelessWidget {
             ),
             Container(
               height: 20,
-              width: 100,
+              // width: 110,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 color: sharecolor,
@@ -50,10 +50,13 @@ class ColSquircle extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(width: 3),
-                  Text(
-                    "💙 FlutterDevelopers",
-                    style: TextStyle(color: Colors.white, fontSize: 12),
+                  // SizedBox(width: 3),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 6.0),
+                    child: Text(
+                      "💙 FlutterDevelopers",
+                      style: TextStyle(color: Colors.white, fontSize: 12),
+                    ),
                   ),
                 ],
               ),
