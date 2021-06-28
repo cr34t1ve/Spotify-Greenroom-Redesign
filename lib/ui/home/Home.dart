@@ -31,9 +31,10 @@ class Home extends StatelessWidget {
         actions: [
           SizedBox(width: 5),
           IconButton(
+            iconSize: 23,
+            padding: EdgeInsets.zero,
             icon: Icon(
               Icons.calendar_today_outlined,
-              size: 25,
               color: Colors.white,
             ),
             onPressed: () {},
